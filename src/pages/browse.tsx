@@ -14,13 +14,15 @@ const Browse = () => {
       {user ? (
         <>
           <Navbar />
-          <Addpost />
+          <Postrender />
           <Footer />
         </>
       ) : (
         <>
           <Navbar />
-          <div className="m-8 text-center text-3xl">Please Login Or Creat a New Accouunt</div>
+          <div className="m-8 text-center text-3xl">
+            Please Login Or Creat a New Accouunt
+          </div>
           <Footer />
         </>
       )}
