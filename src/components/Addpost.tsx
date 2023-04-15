@@ -25,7 +25,7 @@ const Addpost = () => {
       time: values.time,
       other: values.other,
     }).then(() => {
-      router.push("/");
+      router.push("/browse");
     });
 
     setValues({

@@ -2,9 +2,7 @@ import React from "react";
 
 const Hehe = () => {
   return (
-    <div
-      className="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10"
-    >
+    <div className="px-3 md:lg:xl:px-40   border-t border-b py-20 bg-opacity-10">
       <div className="grid grid-cols-1 md:lg:xl:grid-cols-3 group bg-white shadow-xl shadow-neutral-100 border ">
         <div className="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
           <span className="p-5 rounded-full bg-indigo-500 text-white shadow-lg shadow-red-200">
@@ -24,11 +22,12 @@ const Hehe = () => {
             </svg>
           </span>
           <p className="text-xl font-medium text-slate-700 mt-3">
-            Most Experienced Team
+            Reduce food waste
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Team BrainEdge education is a bunch of highly focused, energetic set
-            of people.
+            By connecting organizations with excess food to NGOs that need it,
+            the Share-a-Meal website aims to reduce the amount of food that goes
+            to waste.
           </p>
         </div>
 
@@ -50,10 +49,11 @@ const Hehe = () => {
             </svg>
           </span>
           <p className="text-xl font-medium text-slate-700 mt-3">
-            Best Test preparation
+            Promote sustainability
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Know where you stand and what next to do to succeed .
+            The website encourages sustainable practices by facilitating the
+            donation of excess food instead of throwing it away.
           </p>
         </div>
 
@@ -75,11 +75,11 @@ const Hehe = () => {
             </svg>
           </span>
           <p className="text-xl font-medium text-slate-700 mt-3">
-            Admission process Guidance
+            Combat food insecurity
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Professional Advice for higher education abroad and select the top
-            institutions worldwide.
+            The website aims to help combat food insecurity by ensuring that
+            nutritious food reaches those who need it the most.
           </p>
         </div>
 
@@ -101,10 +101,12 @@ const Hehe = () => {
             </svg>
           </span>
           <p className="text-xl font-medium text-slate-700 mt-3">
-            Best Track Record
+            Build partnerships
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Yet another year ! Yet another jewel in our crown!
+            By connecting NGOs and organizations, the website helps build
+            partnerships and collaborations that can have a positive impact on
+            society.
           </p>
         </div>
 
@@ -125,10 +127,13 @@ const Hehe = () => {
               />
             </svg>
           </span>
-          <p className="text-xl font-medium text-slate-700 mt-3">Free Mock Exams</p>
+          <p className="text-xl font-medium text-slate-700 mt-3">
+            Raise awareness
+          </p>
           <p className="mt-2 text-sm text-slate-500">
-            Get Topic-Wise Tests, Section- Wise and mock tests for your
-            preparation.
+            The website aims to raise awareness about the issue of food waste
+            and insecurity and encourages individuals and organizations to take
+            action.
           </p>
         </div>
 
@@ -150,10 +155,12 @@ const Hehe = () => {
             </svg>
           </span>
           <p className="text-xl font-medium text-slate-700 mt-3">
-            Genuine Visa Advice
+            Provide an efficient solution
           </p>
           <p className="mt-2 text-sm text-slate-500">
-            Visa process by helping you create the necessary documentation
+            The Share-a-Meal website provides an efficient and user-friendly
+            platform for organizations and NGOs to connect, making the process
+            of donating and receiving excess food donations as easy as possible.
           </p>
         </div>
       </div>

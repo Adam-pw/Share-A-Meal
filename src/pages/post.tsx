@@ -18,7 +18,9 @@ const Post = () => {
       ) : (
         <>
           <Navbar />
-          <div className="m-8 text-center text-3xl">Please Login</div>
+          <div className="m-8 text-center text-3xl">
+            Please Login Or Creat a New Accouunt
+          </div>
           <Footer />
         </>
       )}

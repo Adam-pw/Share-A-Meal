@@ -14,7 +14,7 @@ function Navbar() {
       {user ? (
         <>
           <div className="shadow bg-white">
-            <div className="h-16 mx-auto px-5 flex items-center justify-between">
+            <div className="p-4 gap-5 mx-auto px-5 flex flex-col lg:flex-row items-center justify-between">
               <Link
                 className="text-lg lg:text-2xl font-semibold hover:text-cyan-500 transition-colors cursor-pointer"
                 href="/"
@@ -29,7 +29,7 @@ function Navbar() {
                     href="/post"
                   >
                     <button
-                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-2 lg:px-4 rounded-md hover:bg-indigo-600 transition duration-300"
                       type="submit"
                     >
                       Create Post
@@ -42,7 +42,7 @@ function Navbar() {
                     href="/browse"
                   >
                     <button
-                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-2 lg:px-4 rounded-md hover:bg-indigo-600 transition duration-300"
                       type="submit"
                     >
                       Browse Post
@@ -55,8 +55,9 @@ function Navbar() {
                     href="/"
                   >
                     <button
-                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
-                      type="submit" onClick={logout}
+                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-2 lg:px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+                      type="submit"
+                      onClick={logout}
                     >
                       Logout
                     </button>
@@ -84,7 +85,7 @@ function Navbar() {
                     href="/signup"
                   >
                     <button
-                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-2 lg:px-4 rounded-md hover:bg-indigo-600 transition duration-300"
                       type="submit"
                     >
                       Signup
@@ -97,7 +98,7 @@ function Navbar() {
                     href="/login"
                   >
                     <button
-                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-4 rounded-md hover:bg-indigo-600 transition duration-300"
+                      className="w-full bg-indigo-500 text-white text-sm font-bold py-2 px-2 lg:px-4 rounded-md hover:bg-indigo-600 transition duration-300"
                       type="submit"
                     >
                       Login
