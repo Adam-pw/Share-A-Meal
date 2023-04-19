@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import Postrender from "@/components/Postrender";
 import { auth } from "@/config/firebase";
+import Head from "next/head";
 import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 
@@ -11,6 +12,9 @@ const Browse = () => {
 
   return (
     <>
+      <Head>
+        <title>Share-A-Meal</title>
+      </Head>
       {user ? (
         <>
           <Navbar />
