@@ -3,8 +3,11 @@ import { addDoc, collection } from "firebase/firestore";
 import { useRouter } from "next/router";
 import { title } from "process";
 import React, { useState } from "react";
+import { auth } from "@/config/firebase";
+import { useAuthState } from "react-firebase-hooks/auth";
 
 const Addpost = () => {
+  const [user, loading, error] = useAuthState(auth);
   const router = useRouter();
   const [values, setValues] = useState({
     name: "",
@@ -24,6 +27,8 @@ const Addpost = () => {
       date: values.date,
       time: values.time,
       other: values.other,
+      user: user?.displayName,
+      comments: [],
     }).then(() => {
       router.push("/browse");
     });
@@ -40,7 +45,9 @@ const Addpost = () => {
 
   return (
     <>
-      <div className="mx-auto w-full max-w-[550px] my-8 font-semibold text-lg text-[#07074D]">Create a Post </div>
+      <div className="mx-auto w-full max-w-[550px] my-8 font-semibold text-lg text-[#07074D]">
+        Create a Post{" "}
+      </div>
       <div className="flex items-center justify-center px-12">
         <div className="mx-auto w-full max-w-[550px]">
           <form>
